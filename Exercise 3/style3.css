@@ -25,14 +25,11 @@
     padding: 15px;
 }
 
-.flex_container div{
-    margin: 10px;
-}
-
 .flex_item{
     position: relative;
+    display: flex;
     align-items: center;
-    padding: 10px, 15px;
+    padding: 10px 15px;
 }
 
 .flex_item a:hover{
@@ -44,7 +41,7 @@
     color: white;
     text-decoration: none;
     font-size:18px;
-    padding: 10px, 15px;
+    padding: 10px 15px;
 }
 
 .dropdown{
